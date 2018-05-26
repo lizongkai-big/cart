@@ -8,8 +8,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import net.sf.json.JSONObject;
 
 import bean.OrderItem;
 import bean.Product;
@@ -48,6 +46,5 @@ public class OrderItemAddServlet extends HttpServlet {
         if (!found)
             ois.add(oi);
 
-        response.sendRedirect("/listOrderItem");
     }
 }
