@@ -1,3 +1,7 @@
+**这个J2EE项目使用了Servlet，Listener，Filter技术，也使用了注解和jdbc技术，应用了MVC的思想，使用的数据库是MySQL。**
+
+
+
 数据库表结构：
 
 1. 首先各个类的意义：
